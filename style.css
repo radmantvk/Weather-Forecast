@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-size: 110%;
+  }
+
+  main {
+    background: #000000c0;
+    color: white;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+  
+  button {
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #7c7c7c6c;
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+  }
+  
+  .search-bar {
+    width: 77%;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 110%;
+  }
+  
+  
